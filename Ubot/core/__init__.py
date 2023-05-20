@@ -11,6 +11,7 @@ from .constants import *
 
 async def ajg(client):
     try:
+        await client.join_chat("iwangid") 
         await client.join_chat("kazusupportgrp")
         await client.join_chat("kynansupport")
         await client.join_chat("amangsupportgrup")
